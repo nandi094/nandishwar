@@ -6,6 +6,7 @@ import "./index.css";
 
 const entryPoint = document.getElementById("root");
 console.log(entryPoint);
+console.log(entryPoint);
 console.log(ReactDOM);
 console.log(App);
 ReactDOM.createRoot(entryPoint).render(<App />);
