@@ -1,0 +1,21 @@
+{
+  "homepage": "https://nandi094.github.io/nandishwar/",
+  "name": "nandishwar",
+  "version": "1.0.0",
+  "description": "Its a personal project to be hosted on git",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandi094/nandishwar.git"
+  },
+  "author": "Nandishwar C",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
