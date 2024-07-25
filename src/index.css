@@ -16,6 +16,16 @@ html {
     -webkit-text-size-adjust: 100%;
     min-height: 80rem;
 }
+.companyImage img {
+    object-fit: contain;
+  /* or
+    object-fit: cover; */
+  } 
+  
+  .square {
+    height: 75px;
+    width: 75px;
+}
 
 header {
     text-align: center;
