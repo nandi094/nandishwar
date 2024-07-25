@@ -9,4 +9,5 @@ console.log(entryPoint);
 console.log(entryPoint);
 console.log(ReactDOM);
 console.log(App);
-ReactDOM.createRoot(entryPoint).render(<App />);
+// ReactDOM.createRoot(entryPoint).render(<App />);
+ReactDOM.createRoot(entryPoint).render(React.createElement(App));
